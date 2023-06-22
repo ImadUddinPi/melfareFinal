@@ -1,5 +1,5 @@
 @extends('layout')
-@section('title') Gainloe @endsection
+@section('title') MELFARE @endsection
 @section('keywords') Home,About,Contact,Car @endsection
 @section('description') Write some descripton about the webpage @endsection
 @section('content')
@@ -13,8 +13,8 @@
 
 <!-- About Starts Here -->
 
- <div id="About" class="container-fluid" style="background:white;">
-    <br><br>
+ <div id="About" class="" style="background:white;">
+    <br/>
       <div class="row">
         <div class="col-md-4">
         <img src=" {{asset('public/Img/about.png')}}" alt="" class="img-fluid" >

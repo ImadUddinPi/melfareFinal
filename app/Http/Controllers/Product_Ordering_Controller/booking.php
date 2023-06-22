@@ -54,7 +54,6 @@ namespace App\Http\Controllers\Product_Ordering_Controller;
         public function  order_proceed(Request $request)
         {
               $validation =$request->validate([
-                      'Payment_Method'=>'required',
                       'Door_No'=>'required|max:60',
                       'LandMark'=>'required|max:60',
                       'city'=>'required|max:60|regex:/^[a-zA-Z\s]*$/',
@@ -85,7 +84,7 @@ namespace App\Http\Controllers\Product_Ordering_Controller;
 
                 $Delivery_Address=$address1.','.$address2.'<br>'.$city.','.$state.','.$country.'<br>'.$pincode.','.$mno.','.$alternativemno;
              /* Delivery Details*/
-                $p_method=$request->input('Payment_Method');
+                $p_method='COD';
             /* Order Details Starts Here*/
                 if(session('cart'))
                 {
@@ -134,28 +133,6 @@ namespace App\Http\Controllers\Product_Ordering_Controller;
                  {
                    
     	               
-    	                $welcomemessage='Hello '.$name.'<br>';
-    	                $emailbody='Your Order Was Placed Successfully<br>
-    	                <p>Thank you for your order. We’ll send a confirmation when your order ships. Your estimated delivery date is 3-5 working days. If you would like to view the status of your order or make any changes to it, please visit Your Orders on <a href="https://www.gainaloe.com">Gainaloe.com</a></p>
-    	                <h4>Order Details: </h4><p> Order No:'.$id.$O_Details.'</p>
-    	                 <p><strong>Delivery Address:</strong>
-    	               '.$Delivery_Address.'</p>
-    	                <p> <strong>Total Amount:</strong>
-    	                '.$Amount.'</p>
-    	                 <p><strong>Payment Method:</strong>'.$p_method.'</p>';
-    	                $emailcontent=array(
-    	                    'WelcomeMessage'=>$welcomemessage,
-    	                    'emailBody'=>$emailbody
-    	                   
-    	                    );
-    	                    Mail::send(array('html' => 'emails.order_email'), $emailcontent, function($message) use
-    	                    ($loginid, $name,$id)
-    	                    {
-    	                        $message->to($loginid, $name)->subject
-    	                        ('Your Gainaloe.com order '.$id.' is Confirmed');
-    	                        $message->from('codetalentum@btao.in','Gainaloe');
-    	                        
-    	                    });
                     
                             Session::forget('cart');
                             Session::forget('discount');

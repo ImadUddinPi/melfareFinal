@@ -1,10 +1,10 @@
 @extends('layouts.app')
 @section('title')
-Login - Gainloe
+Login - Melfare
 @endsection
 
 @section('keywords')
-Login in Gainloe, signin
+Login in Melfare, signin
 
 @endsection
 
@@ -84,7 +84,7 @@ Login  and  book your  products
                                    <p class="my-2"> 
                                           <a class="black-text" href="/">
                                                <i class="fas fa-arrow-left"></i>
-                                           <u>Back to Gainloe</u>
+                                           <u>Back to Melfare</u>
                                            </a>
                                    </p> 
                                  </div>

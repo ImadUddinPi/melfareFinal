@@ -10,7 +10,7 @@
                             <div class="view overlay">
                               <div class="row mx-5">
                               <div align="left" class="col-md-5 p-5 mx-5">
-                                  <h1 class="black-text animated fadeInLeft slow " style="font-size:40px;">Get 10% off on Every Eco-Friendly Products
+                                  <h1 class="black-text animated fadeInLeft slow " style="font-size:40px;">Get Amazing subsidized Medicines
                                  </h1>
                                   <a href="{{url('Shop/Chess-Board')}}" target="_blank" class="btn btn-dark"  >Order Now</a>
                               </div>
@@ -34,7 +34,7 @@
                             <div class="view overlay">
                               <div class="row mx-5">
                               <div align="left" class="col-md-5 p-5 mx-5">
-                                  <h1 class="black-text animated fadeInLeft slow " style="font-size:40px;">Quality Eco-friendly Pooja Mats at 10% off Sale</h1>
+                                  <h1 class="black-text animated fadeInLeft slow " style="font-size:40px;">Authentic and Genuine Medicines</h1>
                                  
                                <a href="{{url('Shop/Mat')}}" target="_blank" class="btn btn-dark"  >Order Now</a>
                               </div>
@@ -82,7 +82,7 @@
                             <div class="view overlay">
                                  <div align="center" class="p-5 " style="margin-top:-20px;">
                         
-                                      <h1 class="black-text animated fadeInLeft slow " > We Create Quality Eco-friendly products for you</h1>
+                                      <h1 class="black-text animated fadeInLeft slow " > We provide subsidized medicines for you</h1>
                                      <a  href="{{url('about')}}" target="_blank" class="btn btn-dark">Know More </a>
                               
                               

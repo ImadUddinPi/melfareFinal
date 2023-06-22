@@ -13,7 +13,7 @@
                                <th>Order_Id</th>
                                <th>Order Details</th>
                                <th>Delivery Address</th>
-                               <th>Total Price (INR)</th>
+                               <th>Total Price PKR</th>
    
                                 
                                <th>Action</th>

@@ -1,19 +1,20 @@
 @extends('layout')
 @section('title')
-    Melfare
+    MELFARE
 @endsection
 @section('keywords')
     Home,About,Contact,Car
 @endsection
 @section('description')
-    Write some descripton about the webpage
+
 @endsection
 @section('content')
     <style>
         .checked {
             color: orange;
         }
-    </style>
+    </style>    
+        
     <div id="slide_show_in_desktop_mode">
         @include('components.desktopslideshow')
     </div>
@@ -29,10 +30,7 @@
     </script>
     <div id="About" class="container-fluid" style="background:white;">
         <br>
-        <div class="row ">
-            <div class="col-md-4 wow animated zoomIn slow">
-                <img src="{{ asset('Img/About.png') }}" alt="" class="img-fluid">
-            </div>
+        <div class="row " style="justify-content: center;">
             <div align="center" class="col-md-8 wow animated flash slow">
                 <h1 class="black-text" style="font-weight:bold;">Values of Melfare</h1>
                 <div class="col-md-3" style=" border-bottom: 2px solid #003399;"></div>
@@ -46,13 +44,10 @@
                     <div class="col-md-6">
                         <ul align="left" style="list-style:none;">
                             <li><i class="fab fa-pagelines"></i> A Welfare Project</li><br>
-                            <li><i class="fab fa-pagelines"></i> Droolful Service  </li>
+                            <li><i class="fab fa-pagelines"></i> Timely Service  </li>
                         </ul>
                     </div>
                 </div>
-                <p align="left" class="mx-5" style="margin-top:-30px; font-family: 'Balsamiq Sans', cursive;">
-                    <a href="{{ url('about') }}" target="_blank" class="btn btn-dark">Know More</a>
-                </p>
 
             </div>
         </div>

@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-Register - Gainloe
+Register - Melfare
 @endsection
 
 @section('keywords')
@@ -91,7 +91,7 @@ Register - Gainloe
                                    <p class="my-2"> 
                                           <a class="black-text" href="/">
                                                <i class="fas fa-arrow-left"></i>
-                                           <u>Back to Gainloe</u>
+                                           <u>Back to Melfare</u>
                                            </a>
                                    </p> 
                                  </div>

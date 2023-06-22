@@ -1,5 +1,5 @@
 @extends('layout')
-@section('title') Gainloe @endsection
+@section('title') MELFARE @endsection
 @section('keywords') Home,About,Contact,Car @endsection
 @section('description') Write some descripton about the webpage @endsection
 @section('content')
@@ -129,7 +129,7 @@
                                       
                                         @else 
                                         <p align="right" >
-                                            <i class="fas fa-rupee-sign " ></i>  {{$total}}  
+                                            PKR  {{$total}}  
                                         </p>
                                         <a href="" data-toggle="modal" data-target="#modalDiscount" >Have a PromoCode</a>
                                     
@@ -143,7 +143,7 @@
                                             Total: 
                                         </p>
                                         <h4 align="right" >
-                                            <i class="fas fa-rupee-sign " ></i>  <strong>
+                                            PKR<strong>
                                               {{ $total +  $delivery_charges - session('discount') * $total / 100     }}</strong> 
                                         </h4>
                                     </li>    

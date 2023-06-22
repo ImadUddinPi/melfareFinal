@@ -51,7 +51,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `image`, `address1`, `address2`, `city`, `pincode`, `state`, `country`, `mnumber`, `alternativemno`, `password`, `role`, `status`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, 'Vijayanagaram Rahul', 'rahulvijayanagaram@gmail.com', NULL, '1636046011.jpg', '18-1-265', 'fdcv', 'Anantapur', '515001', 'Andhra Pradesh', 'India', '9177889021', NULL, '$2y$10$MXBqo32Xo3zroC3qzdijLOLRJRtExrQhunD73N6DhTpI7uQIoN76O', 'admin', '1', NULL, '2021-11-04 11:09:03', '2021-11-12 11:09:54');
+(1, 'Imad Uddin', 'imaduddinpi@gmail.com', NULL, '1636046011.jpg', '18-1-265', 'fdcv', 'Kohat', '26000', 'KP', 'Pakistan', '0123456789', NULL, '$2y$10$MXBqo32Xo3zroC3qzdijLOLRJRtExrQhunD73N6DhTpI7uQIoN76O', 'admin', '1', NULL, '2023-11-04 11:09:03', '2023-11-12 11:09:54');
 
 --
 -- Indexes for dumped tables

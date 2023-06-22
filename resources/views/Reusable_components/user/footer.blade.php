@@ -56,7 +56,7 @@
         <p>
           <i class="fas fa-envelope mr-3"></i> emmad@gmail.com</p>
         <p>
-          <i class="fas fa-phone mr-3"></i> Emmad : +91 9177889021</p>
+          <i class="fas fa-phone mr-3"></i> Emmad : +92 3335997411</p>
       </div>
       <!-- Grid column -->
 
