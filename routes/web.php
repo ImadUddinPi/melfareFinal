@@ -48,7 +48,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 |User  Routes Starts Here
 |----------------------------------------------------------------------------
 */
-Route::get('/user/dashboard', 'UserController@index')->middleware('auth');
+Route::get('/user/dashboarShopd', 'UserController@index')->middleware('auth');
 Route::get('/Shop/{purl}', 'Product_Ordering_Controller\FrontEndController@index');
 
 Route::get('/user/dashboard', 'UserController@index')->middleware('auth');
